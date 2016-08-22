@@ -5,8 +5,8 @@
 #
 
 name "skyed"
-maintainer "CHANGE ME"
-homepage "https://CHANGE-ME.com"
+maintainer "Miguel Bernabeu <itmatters@devex.com"
+homepage "https://github.com/poka-yoke/skyed"
 
 # Defaults to C:/skyed on Windows
 # and /opt/skyed on all other platforms
@@ -19,7 +19,7 @@ build_iteration 1
 dependency "preparation"
 
 # skyed dependencies/components
-# dependency "somedep"
+dependency "skyed"
 
 # Version manifest file
 dependency "version-manifest"
