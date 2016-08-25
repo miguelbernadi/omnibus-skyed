@@ -78,5 +78,6 @@ Vagrant.configure("2") do |config|
      sudo mkdir -p /tmp/opt/skyed && sudo chown root:vagrant /tmp/opt/skyed \
           && sudo chmod g+rwx /tmp/opt/skyed
      su -c "cd /vagrant && ./build.sh" vagrant
+     shutdown -hP now
    SHELL
 end
