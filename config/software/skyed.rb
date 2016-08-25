@@ -6,10 +6,10 @@ dependency "rubygems"
 
 build do
   gem "install skyed -n #{install_dir}/bin --no-rdoc --no-ri -v #{version}"
-  delete "/opt/skyed/embedded/docs"
-  delete "/opt/skyed/embedded/share/man"
-  delete "/opt/skyed/embedded/share/doc"
-  delete "/opt/skyed/embedded/ssl/man"
-  delete "/opt/skyed/embedded/info"
+  delete "/tmp/opt/skyed/embedded/docs"
+  delete "/tmp/opt/skyed/embedded/share/man"
+  delete "/tmp/opt/skyed/embedded/share/doc"
+  delete "/tmp/opt/skyed/embedded/ssl/man"
+  delete "/tmp/opt/skyed/embedded/info"
 end
 

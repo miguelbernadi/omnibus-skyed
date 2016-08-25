@@ -10,7 +10,7 @@ homepage "https://github.com/poka-yoke/skyed"
 
 # Defaults to C:/skyed on Windows
 # and /opt/skyed on all other platforms
-install_dir "#{default_root}/#{name}"
+install_dir "/tmp/#{default_root}/#{name}"
 
 build_version Omnibus::BuildVersion.semver
 build_iteration 1

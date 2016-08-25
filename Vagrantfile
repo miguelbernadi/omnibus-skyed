@@ -75,8 +75,8 @@ Vagrant.configure("2") do |config|
      fi
      sudo mkdir -p /var/cache/omnibus/ && sudo chown root:vagrant /var/cache/omnibus/ \
           && sudo chmod g+rwx /var/cache/omnibus/
-     sudo mkdir -p /opt/skyed && sudo chown root:vagrant /opt/skyed \
-          && sudo chmod g+rwx /opt/skyed
+     sudo mkdir -p /tmp/opt/skyed && sudo chown root:vagrant /tmp/opt/skyed \
+          && sudo chmod g+rwx /tmp/opt/skyed
      su -c "cd /vagrant && ./build.sh" vagrant
    SHELL
 end
